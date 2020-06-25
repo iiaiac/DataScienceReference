@@ -41,9 +41,15 @@ def descriptive_eda(dataset):
         if dataset[i].dtypes == 'object':
             idata = pd.DataFrame(dataset[i].value_counts().reset_index())
             idata.columns = headers
+            Label = ['Missing Values']
+            Frequency = [dataset[i].isnull().sum()]
+            mdf = pd.DataFrame(list(zip(Label, Frequency)), columns = ['Label', 'Frequency'])
+            idata = idata.append(mdf, ignore_index = True)
             idata['Percentage'] = round(idata['Frequency']/idata['Frequency'].sum()*100, 2)
             idata['Variable'] = i
             char_summary = char_summary.append(idata, ignore_index = True)
+            char_summary = char_summary[['Variable', 'Label', 'Frequency', 'Percentage']]
+            
     return output_df.round(4), char_summary                
 
 

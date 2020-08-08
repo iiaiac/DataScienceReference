@@ -16,8 +16,8 @@ import os
 # #### AWS Authentication
 
 # S3 Credentials
-AccesskeyID = 'AKIA56ZNHXD4KS4YNVWP'
-Secretaccesskey = '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'
+AccesskeyID = 'xxxx'
+Secretaccesskey = 'xxxx'
 s3 = boto3.client("s3", 
                   aws_access_key_id=AccesskeyID, 
                   aws_secret_access_key=Secretaccesskey)

@@ -1,0 +1,7 @@
+This is a marketing funnel dataset from sellers that filled-in requests of contact to sell their products on Olist Store. The dataset has information of 8k Marketing Qualified Leads (MQLs) that requested contact between Jun. 1st 2017 and Jun 1st 2018. They were randomly sampled from the total of MQLs.
+
+Its features allows viewing a sales process from multiple dimensions: lead category, catalog size, behaviour profile, etc.
+
+This is real data, it has been anonymized and sampled from the original dataset.
+
+https://www.kaggle.com/olistbr/marketing-funnel-olist/

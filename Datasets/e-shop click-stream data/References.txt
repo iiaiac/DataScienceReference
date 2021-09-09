@@ -1,0 +1,5 @@
+Datasets:
+https://archive.ics.uci.edu/ml/datasets/clickstream+data+for+online+shopping
+
+Segmentation using Clustering.
+https://www.kdnuggets.com/2021/08/mastering-clustering-segmentation-problem.html

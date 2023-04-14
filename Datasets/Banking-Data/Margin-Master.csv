@@ -1,0 +1,16 @@
+ProductCode,ProductSegment,Margin
+A,HWC,0.02
+B,MWC,0.016
+C,MWC,0.016
+D,MWC,0.015
+E,LWC,0.012
+F,LWC,0.01
+G,LWC,0.01
+H,LWC,0.009
+M,HWI,0.1
+N,MWI,0.08
+O,LWI,0.06
+I,HWI,0.05
+J,MWI,0.15
+K,LWI,0.13
+L,SA,0.2
